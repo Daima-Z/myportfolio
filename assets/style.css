@@ -272,9 +272,12 @@ footer {
 
 
 @media screen and (max-width:992px) {
+.homeSection .header-sec {
+    padding: 104px 0px 6px;
+}
 .homeSection .texts-here p{
-    line-height: 4rem;
-font-size: 32px;
+    line-height: 5rem;
+font-size: 28px;
 }
 .homeSection .texts-here br{
     display: inline-block !important;
