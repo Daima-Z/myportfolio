@@ -13,6 +13,9 @@ html {
     max-width: 100%;
     max-height: auto;
 }
+hr{
+display: none;
+}
 
 .for-margins{
     margin-top: 40px;
@@ -272,6 +275,9 @@ footer {
 
 
 @media screen and (max-width:992px) {
+hr{
+display: none;
+}
 .homeSection .header-sec {
     padding: 104px 0px 6px;
 }
