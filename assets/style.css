@@ -272,7 +272,13 @@ footer {
 
 
 @media screen and (max-width:992px) {
-
+.homeSection .texts-here p{
+    line-height: 4rem;
+	
+}
+.homeSection .texts-here br{
+    display:none !important;
+}
     nav ul {
         position: absolute;
         top: 8rem;
