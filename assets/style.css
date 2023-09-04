@@ -279,7 +279,7 @@ footer {
     line-height: 5rem;
 font-size: 28px;
 }
-.homeSection .texts-here br{
+.homeSection .texts-here p br, .homeSection .texts-here br{
     display: inline-block !important;
 }
     nav ul {
