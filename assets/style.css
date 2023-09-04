@@ -276,7 +276,7 @@ footer {
 
 @media screen and (max-width:992px) {
 hr{
-display: none;
+display: block !important;
 }
 .homeSection .header-sec {
     padding: 104px 0px 6px;
