@@ -556,70 +556,7 @@
             </div>
         </section>
 
-<!-- 
-        <section class="contactus-form for-margins">
-            <!-- PHP CODE -->
-            <?php
-            if(isset($_POST['btnSubmit'])) {
-                $name = $_POST['txtName'];
-                $email = $_POST['txtEmail'];
-                $phone = $_POST['txtPhone'];
-                $message = $_POST['txtMsg'];
-                $to = '@gmail.com'; // Replace with your email address
-                $subject = 'New Contact Form Submission';
 
-                $headers = "From: $email\r\n";
-                $headers .= "Reply-To: $email\r\n";
-                
-                $message_body = "Name: $name\n";
-                $message_body .= "Email: $email\n";
-                $message_body .= "Phone: $phone\n";
-                $message_body .= "Message:\n$message";
-
-                if(mail($to, $subject, $message_body, $headers)) {
-                    echo "Thank you for your message. We will get back to you soon.";
-                } else {
-                    echo "Error sending the message. Please try again later.";
-                }
-            }
-            ?>
-            <!--PHP CODE-->
-            <div class="container contact-form" id="contactus">
-                <div class="contact-image">
-                    
-                </div>
-                <form method="post" action="contact-form-handler.php">
-                    <h3 class="all_heading">Drop a Message</h3>
-                   <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-                            </div>
-                            
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-                            </div>
-                        </div>
-                    </div>
-                    
-                </form>
-                
-            </div>
-            
-        </section> -->
         <section class="contact-info">
             <div class="container">
                 <div class="row">
