@@ -5,7 +5,9 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 8.5rem;
 }
-
+section{
+	padding-left:40px;
+}
 * {
     margin: 0;
     padding: 0;
